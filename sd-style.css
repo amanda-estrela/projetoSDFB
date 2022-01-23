@@ -1,0 +1,141 @@
+body {
+	font-family: 'Playfair Display', serif;
+	background: #fffaf1;
+}
+
+.topo {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.topo img {
+	margin-left: 15em;
+}
+
+nav {
+	position: absolute;
+	top: 50%;
+	right: 20em;
+}
+
+nav li {
+	display: inline;
+	margin-left: 10px;
+}
+
+nav a {
+	
+	font-weight: bold;
+	font-size: 20px;
+	color: #402100;
+	text-decoration: none;
+	transition: 400ms;
+}
+
+nav a:hover {
+	color: #b76e22;
+
+}
+
+.sobre {
+	width: 940px;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.titulo {
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+	margin: 20px 0 10px;
+}
+.sobre p {
+	margin: 15px 0;
+	text-align: justify;
+}
+
+.video {
+	text-align: center;
+}
+
+.mapa {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.mapa p {
+	text-align: center;
+	padding: 10px 5px;
+}
+
+footer {
+	text-align: center;
+	margin: 10px 0 20px 0;
+	opacity: 0.8;
+}
+
+
+
+
+
+
+/*css da página contato*/
+form label, form legend {
+	display: block;
+	margin: 10px 0 5px 115px;
+}
+
+.input-contato {
+	margin:10px 0 5px 115px;
+	padding: 3px 10px;
+}
+
+.enviar {
+	width: 200px;
+	height: 50px;
+	background: #c8a58f;
+	margin: 10px 0 10px 200px;
+	transition: 800ms;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+
+}
+
+.enviar:hover {
+	background: #c8a580;
+	transform: scale(1.2);
+}
+
+/*css página produtos*/
+
+.produtos {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.produtos li {
+	display: inline-block;
+	text-align: center;
+	width: 30%;
+	vertical-align: top;
+	padding: 15px 0 0 10px;
+}
+
+.produtos li:hover {
+	box-sizing: border-box;
+	border: solid 2px #c8a580;
+}
+
+.produtos h1 {
+	font-weight: bold;
+	font-size: 20px;
+	margin: 0 0 10px 0;
+}
+
+.produtos img {
+	width: 75%;
+}
+
+

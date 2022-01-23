@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<title>Sweet Dreams Bakery - Contato</title>
+		<link href="reset.css" rel="stylesheet">
+		<link href="sd-style.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+	</head>
+
+	<body>
+		<header>
+			<div class="topo">
+				<img src="sweet-dreams-logo.png" alt="Logo Sweet Dreams">
+				<nav>
+					<ul>
+						<li><a href="home.html">Início</a></li>
+						<li><a href="produtos.html">Produtos</a></li>
+						<li><a href="contato.html">Contato</a></li>
+				</nav>	
+			</div>
+		</header>
+
+		<main>
+			<form>
+				<fieldset>
+					<legend>Contato sobre:</legend>
+					<label for="radio-pedidos"><input type="radio" name="contato" value="pedidos" id="radio-pedidos">pedidos</label>
+
+					<label for="radio-produtos"><input type="radio" name="contato" value="produtos" id="radio-produtos">produtos</label>
+
+					<label for="radio-entregas"><input type="radio" name="contato" value="entregas" id="radio-entregas">entregas</label>
+				</fieldset>
+
+				<label for="nome">Seu nome:</label>
+				<input type="text" id="nome" class="input-contato" required>
+
+				<label for="email">E-mail:</label>
+				<input type="email" id="email" class="input-contato" placeholder="seuemail@dominio.com">
+
+				<label for="telefone">Telefone:</label>
+				<input type="tel" id="telefone" class="input-contato" placeholder="(xx) xxxxx-xxxx">
+
+				<label for="mensagem">Sua mensagem:</label>
+				<textarea cols="50" rows="10" id="mensagem" class="input-contato required"></textarea> 
+
+				<label><input type="checkbox" class="checkbox" checked>Gostaria de receber nossas novidades por e-mail?</label>
+
+				<input type="submit" value="Enviar formulário" class="enviar">
+			</form>
+		</main>
+
+		<footer>
+			<img src="rodape1.png" alt="Logo">
+			<p>©Sweet Dreams Fine Bakery - Since 2008</p>
+		</footer>
+	</body>	
+</html>
